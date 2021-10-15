@@ -4,9 +4,9 @@ import styled from 'styled-components'
 function Header() {
     return (
         <NavMenu>
-            <a href="#">Works</a>
-            <a href="#">Blogs</a>
-            <a href="#">Contact</a>
+            <a href="/works">Works</a>
+            <a href="/blogs">Blogs</a>
+            <a href="/contact">Contact</a>
         </NavMenu>
     )
 }

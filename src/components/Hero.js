@@ -14,7 +14,7 @@ function Hero() {
       </Data>
       <Spacer />
       <ProfilePicture>
-        <img src="/images/profile-picture.png" />
+        <img alt="profile" src="/images/profile-picture.png" />
       </ProfilePicture>
     </Container>
   );
