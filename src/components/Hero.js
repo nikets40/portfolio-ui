@@ -14,7 +14,7 @@ function Hero() {
       </Data>
       <Spacer />
       <ProfilePicture>
-        <img alt="profile" src="/images/profile-picture.png" />
+        <img alt="profile-picture" src="/images/profile-picture.png" />
       </ProfilePicture>
     </Container>
   );
@@ -23,13 +23,16 @@ function Hero() {
 export default Hero;
 
 const Container = styled.main`
-  margin: 0 4%; /*add breakpoint later instead of 10% */
+  margin: auto; /*add breakpoint later instead of 10% */
+  padding: 0 5%;
   display: flex;
+  max-width: 852px;
   margin-top: 120px;
 
   @media (max-width: 768px) {
     flex-direction: column-reverse;
     margin-top: 60px;
+    
   }
 `;
 

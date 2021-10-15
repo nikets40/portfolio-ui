@@ -14,8 +14,10 @@ function Header() {
 export default Header
 
 const NavMenu = styled.div`
+max-width: 852px;
+margin: auto;
 height: 70px;
-padding: 0 40px;
+padding: 0 5%;
 display: flex;
 justify-content:end;
 align-items: center;

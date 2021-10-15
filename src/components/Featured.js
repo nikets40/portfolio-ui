@@ -41,7 +41,7 @@ function Featured() {
         </PostData>
       </Post>
 
-<Divider/>
+      <Divider />
       <Post>
         <Thumbnail>
           <img alt="dashboard" src="/images/featured-work-3.png" />
@@ -57,7 +57,7 @@ function Featured() {
           <PostDescription>{description + description}</PostDescription>
         </PostData>
       </Post>
-      <Divider/>
+      <Divider />
     </Container>
   );
 }
@@ -65,20 +65,21 @@ function Featured() {
 export default Featured;
 
 const Container = styled.div`
-  margin: 0 4%;
+  margin: auto;
+  max-width: 852px;
+  padding: 0 5%;
 `;
 
 const Divider = styled.div`
   width: 100%;
   margin: 15px 0;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
 `;
 
 const SectionTitle = styled.div`
-font-weight: 400;
-font-size: 22px;
-margin: 10px 0 22px
-
+  font-weight: 400;
+  font-size: 22px;
+  margin: 10px 0 22px;
 `;
 
 const Post = styled.div`
@@ -90,16 +91,13 @@ const Post = styled.div`
 `;
 
 const Thumbnail = styled.div`
-  
-
   img {
     max-width: 246px;
     max-height: 180px;
     @media (max-width: 630px) {
       max-width: 100%;
       max-height: 100%;
-  }
-   
+    }
   }
 `;
 

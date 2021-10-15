@@ -41,6 +41,8 @@ const Container = styled.div`
   margin-top: 80px;
   padding: 1px 4% 32px;
   p {
+    max-width: 852px;
+    margin: 20px auto;
     color: #21243d;
     font-size: 22px;
     line-height: 10px;
@@ -48,6 +50,8 @@ const Container = styled.div`
 `;
 
 const RecentPosts = styled.div`
+  margin: auto;
+  max-width: 852px;
   display: flex;
   @media (max-width: 768px) {
     flex-direction: column-reverse;
